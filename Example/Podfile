@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZDAssembly_Example' do
+  pod 'ZDAssembly', :path => '../'
+
+  target 'ZDAssembly_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
