@@ -1,15 +1,40 @@
 PODS:
-  - ZDAssembly (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - SVProgressHUD (2.1.2)
+  - ZDAssembly (0.1.0):
+    - AFNetworking (~> 3.1.0)
+    - SVProgressHUD (~> 2.1.2)
 
 DEPENDENCIES:
   - ZDAssembly (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - SVProgressHUD
 
 EXTERNAL SOURCES:
   ZDAssembly:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZDAssembly: ab84665f5ab7421db740183739cb66d3605fc6ae
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  ZDAssembly: 022d3802ee41f12155f807f45b8b89af390e43f8
 
 PODFILE CHECKSUM: bd8121ec65450364454db3602fd2fa1fa73be4f0
 
