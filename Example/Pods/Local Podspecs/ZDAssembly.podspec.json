@@ -1,0 +1,22 @@
+{
+  "name": "ZDAssembly",
+  "version": "0.1.0",
+  "summary": "A short description of ZDAssembly.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/maomao520benben/ZDAssembly",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "maomao520benben": "zhengdongstu@163.com"
+  },
+  "source": {
+    "git": "https://github.com/maomao520benben/ZDAssembly.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZDAssembly/Classes/**/*"
+}

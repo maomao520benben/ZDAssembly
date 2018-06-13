@@ -1,0 +1,6 @@
+framework module ZDAssembly {
+  umbrella header "ZDAssembly-umbrella.h"
+
+  export *
+  module * { export * }
+}

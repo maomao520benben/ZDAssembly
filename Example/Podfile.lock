@@ -1,0 +1,16 @@
+PODS:
+  - ZDAssembly (0.1.0)
+
+DEPENDENCIES:
+  - ZDAssembly (from `../`)
+
+EXTERNAL SOURCES:
+  ZDAssembly:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZDAssembly: ab84665f5ab7421db740183739cb66d3605fc6ae
+
+PODFILE CHECKSUM: bd8121ec65450364454db3602fd2fa1fa73be4f0
+
+COCOAPODS: 1.5.2
